@@ -1,23 +1,30 @@
 import React from "react";
 import "./App.css";
-import { ProductList } from "./Layout/productList";
 import NavigationBar from "./Common/navigationbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { CartItems } from "./Layout/cartItems";
+import { BrowserRouter} from "react-router-dom";
+import {Router} from "./Router/router";
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <NavigationBar></NavigationBar>
-        <Routes>
-          <Route path="/" element={<ProductList></ProductList>} >
-          </Route>
-          <Route path="/cart" element={<CartItems />} />
-        </Routes>
-        </Router>
+       <Router></Router>
+        </BrowserRouter>
     </>
   );
 }
 
 export default App;
+
+
+// import { BrowserRouter } from "react-router-dom";
+// return (
+//  <BrowserRouter>
+//   <NavigationBar />
+//   <Router />
+//  </BrowserRouter>
+// <ProductList></ProductList> should be just <ProductList />
+
+
+

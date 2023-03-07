@@ -1,4 +1,4 @@
-import { Products } from "../types/types";
+import { Products } from "../Types/types";
 
 export const listOfProducts: Array<Products> = [
     { id:1 ,img: "https://th.bing.com/th/id/OIP.G12T_MUuIKWw7XklDIqzhwHaE8?pid=ImgDet&rs=1", name: "Laptop", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "10" },

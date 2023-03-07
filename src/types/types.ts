@@ -7,11 +7,6 @@ export interface Products {
 }
 
 
-export interface cardsProp {
-    product: Products
-    children: React.ReactNode
-}
-
 export interface cartState {
     cart: Array<Products>
 }

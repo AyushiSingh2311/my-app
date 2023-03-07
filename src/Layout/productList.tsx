@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "../Common/cards";
-import { Products } from "../types/types";
+import { Products } from "../Types/types";
 // import Button from '@mui/material/Button';
 import { useDispatch } from "react-redux";
 import { setCart } from "../Store/Reducer/cart.slice";

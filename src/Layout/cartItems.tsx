@@ -1,16 +1,14 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../Store/store";
-import { Products } from "../types/types";
+import { Products } from "../Types/types";
 import Cards from "../Common/cards";
 import { removeCart } from "../Store/Reducer/cart.slice";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-// import "../App.css";
 import '../App.css'
 import { styled } from "@mui/material/styles";
 import Button, { ButtonProps } from "@mui/material/Button";
-// import Stack from '@mui/material/Stack';
 import { blue } from "@mui/material/colors";
 
 const ColorButton = styled(Button)<ButtonProps>(({ theme }) => ({
